@@ -1,4 +1,4 @@
-const readline = require('readline-sync'); // readline-sync permite entrada síncrona
+const readline = require('readline-sync');
 
 const numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let tentativas = 0;
